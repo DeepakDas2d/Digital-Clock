@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(30, 27, 27);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.clockHeading{
+    letter-spacing: 2px;
+}
+
+
+.clock{
+     color: rgb(19, 18, 18);
+    font-weight: bold;
+     border: 1px solid #ccc;
+     height: 200px;
+     width: 250px;
+     border-radius: 15px;
+     margin-top: 20px;
+     background-color: #a3e3f5;
+ }
+
+
+.clockContent{
+    padding: 10px;
+}
