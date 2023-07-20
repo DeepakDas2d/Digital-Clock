@@ -1,12 +1,13 @@
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    background: rgb(30, 27, 27);
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #cccccce1;
+    color: rgb(9, 8, 8);
+    font-family: 'Times New Roman', Times, serif;
 
 }
 .container{
@@ -18,21 +19,44 @@ body{
 
 .clockHeading{
     letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
 .clock{
-     color: rgb(19, 18, 18);
-    font-weight: bold;
+     color: white;
      border: 1px solid #ccc;
      height: 200px;
-     width: 250px;
+     width: 240px;
+     font-size: 3rem;
+     text-align: left;
      border-radius: 15px;
-     margin-top: 20px;
-     background-color: #a3e3f5;
+     /* margin-top: 20px; */
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     background-color: rgba(17, 15, 15, 0.771);
+
  }
 
 
 .clockContent{
     padding: 10px;
-}
+    height: 160px;
+    width: 210px;
+    background-color: rgba(18,14,14,0.771);
+    border-radius: 15px;
+  }
+
+  /* .date-container {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+} 
+
+.fa-bell {
+    font-size: 20px;
+    margin-left: 10px;
+} */

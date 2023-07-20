@@ -29,11 +29,33 @@ let showtime = () =>{
     m = (m<10)?"0"+m:m;
     s = (s<10)?"0"+s:s;
     let updateTime = document.getElementById("DigitalClock");
-    updateTime.innerHTML = h + ":" + m + ":" + s + " "+ session; 
+    updateTime.innerHTML = h + ":" + m + ":" + s +" " + "<br>" +  session ; 
+     
     setTimeout(showtime, 1000);
 }
 
 showtime();
 // setInterval(showtime, 1000);
+
+
+// // Function to get the current date in the required format
+// function getCurrentDate() {
+//     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//     const monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+//     const currentDate = new Date();
+//     const day = daysOfWeek[currentDate.getDay()];
+//     const month = monthsOfYear[currentDate.getMonth()];
+//     const date = currentDate.getDate();
+//     const year = currentDate.getFullYear();
+
+//     return `${day}, ${month} ${date}, ${year}`;
+// }
+
+// // Update the HTML element with the current date
+// document.addEventListener("DOMContentLoaded", function() {
+//     const dateElement = document.getElementById("day");
+//     dateElement.textContent = getCurrentDate();
+// });
 
  
